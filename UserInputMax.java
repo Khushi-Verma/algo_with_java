@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MaximumNumber {
+public class UserInputMax {
     public static int findIndexOfMax(int[] numbers) {
         int index = 0;
         for (int i = 1; i < numbers.length; i++) {
@@ -16,6 +16,6 @@ public class MaximumNumber {
         for(int i=0;i<numbers.length;i++){
             numbers[i]=scanner.nextInt();
         }
-        System.out.println(MaximumNumber.findIndexOfMax(numbers));
+        System.out.println(UserInputMax.findIndexOfMax(numbers));
     }
 }
